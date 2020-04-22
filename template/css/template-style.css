@@ -256,17 +256,23 @@ p.logo strong {
 }
 
 #currentProjects h1 {
-  color: #3c4043;
+  color: #012232;
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
-#currentProjects h1+p,
-#currentProjects h1+p+p {
+#currentProjects p {
   color: #80868b;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+#currentProjects .borderBtm {
+  width: 100px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #92c500;
 }
 
 #currentProjects .card {
@@ -285,6 +291,44 @@ p.logo strong {
   color: #80868b;
   font-size: 14px;
   letter-spacing: 1px;
+}
+
+/* *********************************************** */
+/* Solar Solutions SECTION */
+.SolarSolutions {
+  background-image: linear-gradient(120deg, rgba(0, 0, 0), rgba(0, 0, 0, 0.3)), url("../img/solar 3.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  min-height: 50vh;
+  padding: 100px 0;
+}
+
+.SolarSolutions h1 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.SolarSolutions {
+  color: #f8f9fa;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.SolarSolutions .CTA,
+.SolarSolutions .CTA:active,
+.SolarSolutions .CTA:focus {
+  background-color: #92c500;
+  color: #202124;
+  width: 150px;
+  border-radius: 0 0 20px 0;
+  outline: none !important;
 }
 
 /* *********************************************** */
@@ -325,7 +369,6 @@ p.logo strong {
   outline: none !important;
 }
 
-
 /* *********************************************** */
 /* TWITTER SCTION */
 #News {
@@ -341,26 +384,42 @@ p.logo strong {
 
 #News .twitterLarge {
   font-size: 10em;
-	color: #039EF5;
-	text-shadow: 10px 10px #0001 ;
+  color: #039EF5;
+  text-shadow: 10px 10px #0001;
 }
 
 /* *********************************************** */
 /* TEAM SECTION */
-#TEAM .card{
+#TEAM .card {
   border: none;
+  width: 300px;
 }
-#TEAM h1{
-    color: #3c4043;
+
+#TEAM h1 {
+  color: #012232;
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+#TEAM h1+.borderBtm+p {
+  color: #80868b;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#TEAM .borderBtm {
+  width: 100px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #92c500;
 }
 
 /* *********************************************** */
 /* CONTACT SCTION */
 #contact {
   background: none repeat scroll 0 0 #fff;
+  background-color: #f1f1f1;
   padding: 6em 2em;
   position: relative;
   z-index: 2;
@@ -368,38 +427,84 @@ p.logo strong {
 }
 
 #contact h1 {
-  color: #3c4043;
+  color: #012232;
   font-size: 46px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
-#contact h1+p {
+#contact h1+.borderBtm+p {
   color: #80868b;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
 
-#contact input, #contact textarea {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-  border-radius: 3px;
+#contact .borderBtm {
+  width: 100px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #92c500;
 }
 
-form.customform button.color-btn {
-  height: auto;
-  margin-top: 0;
+#contact .card {
+  min-height: 200px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
 }
 
-#contact h4 {
-  text-transform: uppercase;
+#contact .card h4 {
+  color: #5f6368;
   font-weight: 600;
-  color: #80868b;
-  letter-spacing: 0.5px;
 }
 
-#contact h5 {
+#contact .card h5 {
   color: #9aa0a6;
   letter-spacing: 0.5px;
+}
+
+#contact .form .card {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
+}
+
+#contact .form h3 {
+  color: #3c4043;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#contact .form .borderBtm {
+  width: 100px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #92c500;
+}
+
+#contact .form label {
+  font-weight: 600;
+  color: #3c4043;
+}
+
+#contact .form label>span {
+  color: #d11a2a;
+  margin-left: 5px;
+}
+
+#contact input, #contact textarea, #contact select {
+  /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0); */
+  border: 2px solid #3c4043;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#contact .form .submitBtn {
+  width: 100% !important;
+  color: #fff;
+  letter-spacing: 1px;
+  background-color: #012232;
 }
 
 /* #contact i {
@@ -419,10 +524,23 @@ footer {
   padding: 20px 0px;
 }
 
-footer p, footer a:visited, footer a, footer a:hover {
+footer .social {
+  color: #fff !important;
+  letter-spacing: 1px;
+}
+
+footer span {
+  color: #92c500;
+  font-size: 20px;
+  margin: 0 10px;
+  border-radius: 50px;
+
+}
+
+/* footer p, footer a:visited, footer a, footer a:hover {
   color: #6c7c84;
   font-size: 0.8em;
-}
+} */
 
 @media screen and (max-width: 768px) {
   header {
