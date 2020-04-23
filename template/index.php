@@ -21,6 +21,7 @@
           // alert('Right Click Message');
           return false;
         }
+
       }
     }
   </script>
@@ -220,10 +221,8 @@
         <div class="container mb-5 text-center">
           <h1 class="">Solar Solutions</h1>
 
-          <p> We offer a wide range of Solar Solutions tailored for your needs. <br>
-            <!--- strong>Shonco Power</strong> takes pride in <br> providing renewable energy technology focusing on Solar, <br>Hydro-Power and Biogas to generate energy. --->
-          </p>
-          <p>Our Solutions cater for residential energy users and commercial Industrial Sites.<br> Shonco Power Ltd enables businesses to adopt to solar and benefit from <br> immediate savings on their energy costs.<br>We can provide your business
+          <p> We offer a wide range of Solar Solutions tailored for your needs.<br>
+      Our Solutions cater for residential energy users and commercial Industrial Sites.<br> Shonco Power Ltd enables businesses to adopt to solar and benefit from <br> immediate savings on their energy costs.<br>We can provide your business
             with clean solar energy<br> either by purchasing outright or through flexible contracts.</p>
           <div class="row justify-content-md-center">
             <div class="col-md-2 text-left">

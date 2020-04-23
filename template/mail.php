@@ -18,7 +18,7 @@ $phone = $_POST["phone"];
 $product = $_POST["product"];
 $comments = $_POST["comments"];
 
-$message = "Names" . $names . "<br>" . "EMAIL"  . $email . "<br>" . "Company" . $company . "<br>" . "Phone" . $phone . "<br>" . "Product" . $product  . "<br>" . "Comments" . $comments; 
+$message = "Name : " . $names . "<br><br>" . "Sender Email : "  . $email . "<br><br>" . "Company name : " . $company . "<br><br>" . "Phone : " . $phone . "<br><br>" . "Product : " . $product  . "<br><br>" . "Comments : " . $comments; 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
