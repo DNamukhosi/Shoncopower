@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163790381-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163790381-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-163790381-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163790381-1');
+  </script>
   <script>
     function disableClick() {
       document.onclick = function(event) {
@@ -215,20 +218,24 @@
     <div id="SolarSolutions">
       <div class="SolarSolutions SECTION">
         <div class="container mb-5 text-center">
-	  <h1 class="">Solar Solutions</h1>
+          <h1 class="">Solar Solutions</h1>
 
-         <p> We offer a wide range of Solar Solutions tailored for your needs. <br>
+          <p> We offer a wide range of Solar Solutions tailored for your needs. <br>
             <!--- strong>Shonco Power</strong> takes pride in <br> providing renewable energy technology focusing on Solar, <br>Hydro-Power and Biogas to generate energy. --->
           </p>
-          <p>Our Solutions cater for residential energy users and commercial Industrial Sites.<br> Shonco Power Ltd enables businesses to adopt to solar and benefit from <br> immediate savings on their energy costs.<br>We can provide your business with clean solar energy<br> either by purchasing outright or through flexible contracts.</p>
-<div class="text-center" align="center">
-<ol>
-<li> Grid Tie PV</li>
-<li> Off-grid PV</li>
-<li> PV Diesel Hybrid</li>
-<li> Solar Water Pumping</li>
-</ol>
-</div> 
+          <p>Our Solutions cater for residential energy users and commercial Industrial Sites.<br> Shonco Power Ltd enables businesses to adopt to solar and benefit from <br> immediate savings on their energy costs.<br>We can provide your business
+            with clean solar energy<br> either by purchasing outright or through flexible contracts.</p>
+          <div class="row justify-content-md-center">
+            <div class="col-md-2 text-left">
+              <ol>
+                <li> Grid Tie PV</li>
+                <li> Off-grid PV</li>
+                <li> PV Diesel Hybrid</li>
+                <li> Solar Water Pumping</li>
+              </ol>
+            </div>
+          </div>
+
 
         </div>
         <!-- <img src="img/bottom-curve.svg" alt=""> -->
@@ -274,7 +281,7 @@
     </div> -->
 
     <!-- TEAM-->
- <!--div id="TEAM" class="container">
+    <!--div id="TEAM" class="container">
       <h1>Meet the minds <br> reshaping this industry</h1>
       <div class="borderBtm mb-3"></div>
 
@@ -425,12 +432,12 @@
 
 
                 <!-- Notifications for 'error' Or 'successfully'-->
-                		<div class="mailResponse" style="display:none;">
-                			<div class="alert alert-dismissible" role="alert">
-                				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-                				<p class="mailResponseText"></p>
-                			</div>
-                		</div>
+                <div class="mailResponse" style="display:none;">
+                  <div class="alert alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <p class="mailResponseText"></p>
+                  </div>
+                </div>
 
                 <button class="btn submitBtn mt-3" type="submit">SUBMIT</button>
 
