@@ -381,30 +381,30 @@
             </div> -->
             <div class="card px-3 py-5">
 
-              <form class="" name="" id="" action="mail.php" method="post">
+              <form class="needs-validation" id="" action="mail.php" method="post">
 
                 <div class="form-group">
                   <label for="fullName">Full Name <span>*</span> </label>
-                  <input type="text" class="form-control" id="fullName" name="fullName">
+                  <input type="text" class="form-control" id="fullName" name="fullName" required>
                 </div>
 
 
                 <div class="form-group">
                   <label for="companyName">Company Name <span>*</span> </label>
-                  <input type="text" class="form-control" id="companyName" name="companyName">
+                  <input type="text" class="form-control" id="companyName" name="companyName" required>
                 </div>
 
                 <div class="row">
                   <div class="col-md-7">
                     <div class="form-group">
                       <label for="email"> Email <span>*</span> </label>
-                      <input type="email" class="form-control" id="email" name="email">
+                      <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                   </div>
                   <div class="col-md-5">
                     <div class="form-group">
                       <label for="phone"> Phone Number <span>*</span> </label>
-                      <input type="text" class="form-control" id="phone" name="phone">
+                      <input type="text" class="form-control" id="phone" name="phone" required>
                     </div>
                   </div>
                 </div>
@@ -416,7 +416,7 @@
                 <div class="form-group">
 
                   <label for="product">Product <span>*</span> </label>
-                  <select class="form-control" id="product" name="product">
+                  <select class="form-control" id="product" name="product" required>
                     <option value="hydropower">Hydro Power</option>
                     <option value="solarpower">Solar Power</option>
                     <option value="biomass">Biomass</option>
@@ -426,7 +426,7 @@
 
                 <div class="form-group">
                   <label for="comments">Comments</label>
-                  <textarea class="form-control" id="comments" rows="3" name="comments"></textarea>
+                  <textarea class="form-control" id="comments" rows="3" name="comments" required></textarea>
                 </div>
 
 
