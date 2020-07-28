@@ -18,7 +18,7 @@ $phone = $_POST["phone"];
 $product = $_POST["product"];
 $comments = $_POST["comments"];
 
-$message = "Name : " . $names . "<br><br>" . "Sender Email : "  . $email . "<br><br>" . "Company name : " . $company . "<br><br>" . "Phone : " . $phone . "<br><br>" . "Product : " . $product  . "<br><br>" . "Comments : " . $comments; 
+$message = "Name : " . $names . "<br><br>" . "Sender Email : "  . $email . "<br><br>" . "Company name : " . $company . "<br><br>" . "Phone : " . $phone . "<br><br>" . "Product : " . $product  . "<br><br>" . "Comments : " . $comments;
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
@@ -38,7 +38,7 @@ try {
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'From Website';
+    $mail->Subject = 'From Shonco Power';
     $mail->Body    = $message;
    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
